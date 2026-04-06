@@ -1,23 +1,23 @@
 package edu.etec.ds.fundamentos
 
 fun obtenerTipoEntero(): String {
-    TODO("Retornar el nombre del tipo inferido para 42")
+    return "Int"
 }
 
 fun obtenerTipoDouble(): String {
-    TODO("Retornar el nombre del tipo inferido para 3.14")
+    return "Double"
 }
 
 fun obtenerTipoBoolean(): String {
-    TODO("Retornar el nombre del tipo inferido para true")
+    return "Boolean"
 }
 
 fun obtenerTipoString(): String {
-    TODO("Retornar el nombre del tipo inferido para \"Kotlin\"")
+    return "String"
 }
 
 fun obtenerTipoChar(): String {
-    TODO("Retornar el nombre del tipo inferido para 'A'")
+    return "Char"
 }
 
 fun obtenerTipoLista(): String {
