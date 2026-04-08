@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.etec.ds.fundamentos.Ejercicio5Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-08T22:07:46" hostname="louuw-Schoolmate-17-SF20PA2" time="0.165">
+  <properties/>
+  <testcase name="testContarParesRangoVacio()" classname="edu.etec.ds.fundamentos.Ejercicio5Test" time="0.165"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

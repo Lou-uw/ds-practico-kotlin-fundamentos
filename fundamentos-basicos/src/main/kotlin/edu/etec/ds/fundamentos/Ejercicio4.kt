@@ -19,13 +19,29 @@ fun clasificarNumero(numero: Int): String {
 }
 
 fun evaluarEdad(edad: Int): String {
-    TODO("Menor de edad: < 18, Adulto: 18-65, Adulto mayor: > 65")
+    return when {
+        edad < 18 -> "Menor de edad"
+        edad >= 65 -> "Adulto mayor"
+        else -> "Adulto"
+    }
 }
 
 fun obtenerDescuento(monto: Double): Double {
-    TODO("Retornar descuento: 10% si monto > 100, 20% si > 150, 30% si > 200, sino 0%")
+    return when {
+        monto >= 200 -> 30.0
+        monto >= 150 -> 20.0
+        monto >= 100 -> 15.0
+        else -> 0.0
+    }
 }
 
 fun calcular(operador: Char, a: Int, b: Int): Double {
+    return when (operador) {
+        '+' -> (a+b).toDouble()
+        '-' -> (a-b).toDouble()
+        '*' -> (a*b).toDouble()
+        '/' -> if (b == 0) 0.0 else  (a / b.toDouble())
+        else -> 0.0
+    }
     TODO("Realizar operacion: + - * /. Retornar 0.0 si division por cero u operador invalido")
 }

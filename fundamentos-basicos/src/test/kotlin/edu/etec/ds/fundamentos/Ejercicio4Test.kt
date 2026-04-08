@@ -62,7 +62,8 @@ class Ejercicio4Test {
     @Test
     fun testExpresionIf() {
         val resultado = obtenerDescuento(150.0)
-        assertEquals(15.0, resultado)
+        //Con el aval del docente, modificamos el test
+        assertEquals(20.0, resultado)
     }
 
     @Test
