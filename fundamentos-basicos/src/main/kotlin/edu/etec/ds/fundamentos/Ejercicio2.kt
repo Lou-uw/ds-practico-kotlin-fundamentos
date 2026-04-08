@@ -21,29 +21,29 @@ fun obtenerTipoChar(): String {
 }
 
 fun obtenerTipoLista(): String {
-    TODO("Retornar el nombre del tipo inferido para listOf(1, 2, 3)")
+    return "List"
 }
 
 fun obtenerTipoMap(): String {
-    TODO("Retornar el nombre del tipo inferido para mapOf(\"a\" to 1)")
+    return "Map"
 }
 
 fun obtenerTipoArray(): String {
-    TODO("Retornar el nombre del tipo inferido para arrayOf(1, 2, 3)")
+    return "Array"
 }
 
 fun obtenerTipoNulo(): String {
-    TODO("Retornar el nombre del tipo inferido para null")
+    return "Null"
 }
 
 fun obtenerTipoNullable(): String {
-    TODO("Retornar \"Nullable\" para una variable nullable")
+    return "Nullable"
 }
 
 fun obtenerTipoUnit(): String {
-    TODO("Retornar el nombre del tipo de una funcion que no retorna nada")
+    return "Unit"
 }
 
 fun obtenerTipoNothing(): String {
-    TODO("Retornar el nombre del tipo de una funcion que lanza una excepcion")
+    return "Nothing"
 }

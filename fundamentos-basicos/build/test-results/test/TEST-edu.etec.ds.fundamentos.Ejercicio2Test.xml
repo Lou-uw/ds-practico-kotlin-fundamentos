@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.etec.ds.fundamentos.Ejercicio2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-05T23:55:17" hostname="louuw-Schoolmate-17-SF20PA2" time="0.181">
-  <properties/>
-  <testcase name="testInferenciaChar()" classname="edu.etec.ds.fundamentos.Ejercicio2Test" time="0.181"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
