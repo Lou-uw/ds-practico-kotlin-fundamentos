@@ -1,19 +1,57 @@
 package edu.etec.ds.fundamentos
 
 fun obtenerDiaSemana(dia: Int): String {
-    TODO("Usar when para retornar el nombre del dia (1=Lunes, 7=Domingo)")
-}
+    val nombreDia = when(dia) {
+        1 -> "Lunes"
+        2 -> "Martes"
+        3 -> "Miercoles"
+        4 -> "Jueves"
+        5 -> "Viernes"
+        6 -> "Sabado"
+        7 -> "Domingo"
+        else -> "Dia invalido"
+    }
+    return nombreDia
+    }
 
 fun obtenerNombreMes(mes: Int): String {
-    TODO("Usar when para retornar el nombre del mes")
+    val nombreMes = when(mes) {
+        1 -> "Enero"
+        2 -> "Febrero"
+        3 -> "Marzo"
+        4 -> "Abril"
+        5 -> "Mayo"
+        6 -> "Junio"
+        7 -> "Julio"
+        8 -> "Agosto"
+        9 -> "Septiembre"
+        10 -> "Octubre"
+        11 -> "Noviembre"
+        12 -> "Diciembre"
+        else -> "Mes invalido"
+    }
+    return nombreMes
 }
 
 fun clasificarNumeroWhen(numero: Int): String {
-    TODO("Usar when para clasificar: Positivo, Negativo o Cero")
+    val numeroWhen = when {
+        numero < 0 -> "Negativo"
+        numero == 0 -> "Cero"
+        numero > 0 -> "Positivo"
+        else -> "Numero invalido"
+    }
+    return numeroWhen
 }
 
 fun clasificarEdad(edad: Int): String {
-    TODO("Usar when con rangos: Bebe (<3), Nino (3-12), Adolescente (13-17), Adulto (18-65), Anciano (>65)")
+    return when {
+        edad < 3 -> "Bebe"
+        edad in 3..12 -> "Nino"
+        edad in 13..17 -> "Adolescente"
+        edad in 18..65 -> "Adulto"
+        edad > 65 -> "Anciano"
+        else -> "Edad invalida"
+    }
 }
 
 fun convertirMoneda(moneda: String, monto: Double): Double {
