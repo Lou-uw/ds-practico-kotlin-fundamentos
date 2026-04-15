@@ -30,7 +30,7 @@ fun obtenerDescuento(monto: Double): Double {
     return when {
         monto >= 200 -> 30.0
         monto >= 150 -> 20.0
-        monto >= 100 -> 15.0
+        monto >= 100 -> 10.0
         else -> 0.0
     }
 }
@@ -43,5 +43,4 @@ fun calcular(operador: Char, a: Int, b: Int): Double {
         '/' -> if (b == 0) 0.0 else  (a / b.toDouble())
         else -> 0.0
     }
-    TODO("Realizar operacion: + - * /. Retornar 0.0 si division por cero u operador invalido")
 }

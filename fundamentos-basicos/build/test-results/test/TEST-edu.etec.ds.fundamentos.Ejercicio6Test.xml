@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.etec.ds.fundamentos.Ejercicio6Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-15T02:17:28" hostname="louuw-Schoolmate-17-SF20PA2" time="0.422">
+<testsuite name="edu.etec.ds.fundamentos.Ejercicio6Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-15T14:30:51" hostname="213-08" time="0.042">
   <properties/>
-  <testcase name="testWhenClasificarEdad()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.422"/>
+  <testcase name="testWhenEsPrimo()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.042"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

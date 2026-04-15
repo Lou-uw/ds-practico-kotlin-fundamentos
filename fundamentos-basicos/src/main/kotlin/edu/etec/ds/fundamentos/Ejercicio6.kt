@@ -37,8 +37,7 @@ fun clasificarNumeroWhen(numero: Int): String {
     val numeroWhen = when {
         numero < 0 -> "Negativo"
         numero == 0 -> "Cero"
-        numero > 0 -> "Positivo"
-        else -> "Numero invalido"
+        else -> "Positivo"
     }
     return numeroWhen
 }
@@ -55,25 +54,54 @@ fun clasificarEdad(edad: Int): String {
 }
 
 fun convertirMoneda(moneda: String, monto: Double): Double {
-    TODO("Convertir: USD a MXN (1.85), EUR a MXN (18), JPY a MXN (0.10), otro retorna 0")
+     return when(moneda) {
+         "USD" -> monto * 1.85
+        "EUR" -> monto * 18.0
+        "JPY" -> monto * 0.10
+        else -> 0.0
+    }
+
 }
 
 fun realizarOperacion(operador: Char, a: Int, b: Int): Double {
-    TODO("Usar when para realizar + - * / %. Division por cero retorna 0.0")
+    return when (operador) {
+        '+' -> (a+b).toDouble()
+        '-' -> (a-b).toDouble()
+        '*' -> (a*b).toDouble()
+        '/' -> if (b == 0) 0.0 else  (a / b.toDouble())
+        else -> 0.0
+    }
 }
 
 fun obtenerDescuentoWhen(monto: Double): Double {
+    return when {
+        monto >= 200.0 -> 25.0
+        monto >= 150.0 -> 15.0
+        monto >= 100.0 -> 10.0
+        else -> 0.0
+    }
     TODO("Usar when como expresion: >200 -> 25%, >150 -> 15%, >100 -> 10%, else 0%")
 }
 
 fun obtenerCalificacion(nota: Int): String {
-    TODO("Usar when con rangos: >=90 Promocionado, >=60 Aprobado, else Desaprobado")
+    return when {
+        nota >= 90 -> "Promocionado"
+        nota >= 60 -> "Aprobado"
+        else -> "Desaprobado"
+    }
 }
 
 fun esVocal(caracter: Char): Boolean {
-    TODO("Usar when para verificar si es vocal (a, e, i, o, u mayusculas y minusculas)")
+    return when(caracter) {
+        'a','e','i','o','u','A','E','I','O','U' -> true
+        else -> false
+    }
 }
 
 fun esPrimo(numero: Int): Boolean {
+    return when {
+       numero > 1 -> if(numero / 1 && numero / numero) true else false
+
+    }
     TODO("Usar when para determinar si un numero es primo (mayor a 1 divisible solo por 1 y si mismo)")
 }
