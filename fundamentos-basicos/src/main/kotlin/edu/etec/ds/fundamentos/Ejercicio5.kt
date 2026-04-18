@@ -20,11 +20,22 @@ fun contarPares(inicio: Int, fin: Int): Int {
 
 
 fun fibonacci(n: Int): Int {
-    TODO("Retornar el n-esimo numero de Fibonacci")
-}
+        var a = 0
+        var b = 1
+        for (i in 2..n) {
+            val siguiente = a + b
+            a = b
+            b = siguiente
+        }
+        return b
+    }
 
 fun factorial(n: Int): Int {
-    TODO("Calcular el factorial de n")
+    var resultado = 1
+    for (i in 1..n) {
+        resultado *= i
+    }
+    return resultado
 }
 
 fun encontrarMaximo(numeros: List<Int>): Int {

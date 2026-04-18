@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.etec.ds.fundamentos.Ejercicio6Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-15T14:30:51" hostname="213-08" time="0.042">
+<testsuite name="edu.etec.ds.fundamentos.Ejercicio6Test" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-04-18T00:04:34" hostname="louuw-Schoolmate-17-SF20PA2" time="1.082">
   <properties/>
-  <testcase name="testWhenEsPrimo()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.042"/>
+  <testcase name="testWhenDiaSemana1()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.461"/>
+  <testcase name="testWhenDiaSemana7()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.012"/>
+  <testcase name="testWhenDiaInvalidoMayor()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.009"/>
+  <testcase name="testWhenConvertirMoneda()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.084"/>
+  <testcase name="testWhenExpresion()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.024"/>
+  <testcase name="testWhenMesInvalido()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.009"/>
+  <testcase name="testWhenClasificarEdad()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.019"/>
+  <testcase name="testWhenRango()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.013"/>
+  <testcase name="testWhenExpresionSinDescuento()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.021"/>
+  <testcase name="testWhenExpresionMayor()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.019"/>
+  <testcase name="testWhenDiaInvalido()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.017"/>
+  <testcase name="testWhenOperacion()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.023"/>
+  <testcase name="testWhenMesNombre()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.018"/>
+  <testcase name="testWhenClasificarNumero()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.014"/>
+  <testcase name="testWhenMultipleCondiciones()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.015"/>
+  <testcase name="testWhenEsPrimo()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

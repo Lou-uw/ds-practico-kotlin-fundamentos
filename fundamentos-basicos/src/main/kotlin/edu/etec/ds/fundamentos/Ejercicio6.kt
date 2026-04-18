@@ -100,8 +100,13 @@ fun esVocal(caracter: Char): Boolean {
 
 fun esPrimo(numero: Int): Boolean {
     return when {
-       numero > 1 -> if(numero / 1 && numero / numero) true else false
-
+        numero <= 1 -> false
+        numero == 2 -> true
+        else -> {
+            for (i in 2 until numero) {
+                if (numero % i == 0) return false
+            }
+            true
+        }
     }
-    TODO("Usar when para determinar si un numero es primo (mayor a 1 divisible solo por 1 y si mismo)")
 }
